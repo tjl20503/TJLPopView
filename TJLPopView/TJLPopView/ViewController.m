@@ -28,7 +28,9 @@
     [TJLPopView createMenuWithFrame:CGRectZero dataArray:array itemsClickBlock:^(NSString *str, NSInteger tag) {
         [weakSelf doSomething:(NSString *)str tag:(NSInteger)tag];
     } backViewTap:^{
+        
     }];
+    
     [TJLPopView showMenuWithAnimation:YES];
 }
 
